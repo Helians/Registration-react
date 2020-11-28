@@ -1,0 +1,36 @@
+.fieldWrapper {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldWrapper__label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.fieldWrapper__form__field {
+    border: 1px solid #aaa;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #333;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.fieldWrapper__form__field-textarea {
+    resize: none;
+    padding: 10px;
+    height: unset;
+    min-height: 5em;
+}
+
+@media only screen and (min-width:400px) {
+    .fieldWrapper__form__field {
+        height: 36px;
+    }
+}
